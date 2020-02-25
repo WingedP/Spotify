@@ -109,7 +109,7 @@ footer {
 h1 {
     color: gray;   
     font-size: 15px;
-    letter-spacing: 0.05rem;
+    letter-spacing: 0.07rem;
     padding-bottom: 22px;
 }
 
@@ -118,7 +118,7 @@ h1 {
 }
 
 .row-2 {
-    margin-top: 135px;
+    margin-top: 90px;
     display: flex;
     justify-content: space-between;
     align-items: center ;
