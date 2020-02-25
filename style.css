@@ -53,6 +53,9 @@ section {
     font-size: 80px;
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: -webkit-linear-gradient(rgb(158, 206, 218), white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .song {
