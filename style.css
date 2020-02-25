@@ -1,0 +1,152 @@
+body {
+    margin: 0rem;
+}
+
+nav {
+    height: 90px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    opacity: 0.6;
+}
+
+.logo {
+    width: 140px;
+    padding-right: 330px;
+}
+
+.nav-item {
+    color: white;
+    font-size: 20px;
+    padding-right: 30px;
+}
+
+.nav-item:hover {
+    color: rgb(32, 179, 93);
+}
+
+section {
+    height: 700px;
+    background-color: #f037a5;
+    background: linear-gradient(#f037a5 -60%, #fae62d 140%);
+    background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      color-stop(-60%, #f037a5),
+      color-stop(140%, #fae62d)
+    );
+}
+
+.music {
+    font-size: 90px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.song {
+    font-size: 30px;
+    color: white;
+}
+.button {
+    margin-top: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:mediumseagreen;
+}
+.button:hover {
+    background-color: lightgreen;
+    transition: 0.4s;
+
+}
+
+.hero-img {
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://www.scdn.co/i/home/hero-burst.svg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+footer {
+    height: 525px;
+    background-color: black;
+    color: white;
+    display:flex;
+    justify-content: center;
+    
+}
+
+.logo-1 {
+    width: 140px;
+    padding-right: 730px;
+    margin-right: 700[];
+    padding-top: 30px;
+
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+
+}
+
+.column {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+}
+
+.row-2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.row-3 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 120px;
+    margin-right: 50px;
+    margin-left: 50px;
+    color: grey;
+    font-size: 13.1px;
+
+}
+
+.footer-item {
+    color: white;
+}
+
+.footer-icon {
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: gray;
+}
+
+.container{
+    max-width: 1170px;
+}
+
+
+
